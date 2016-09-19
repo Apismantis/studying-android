@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "889816407703",
+    "firebase_url": "https://notification-studying.firebaseio.com",
+    "project_id": "notification-studying",
+    "storage_bucket": "notification-studying.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889816407703:android:c9c10296657b309a",
+        "android_client_info": {
+          "package_name": "com.blueeagle.pushnotificationwithfcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889816407703-d71t8ujoe6k8hjp21ubis9u69b2mrp1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnN0xWV5knLztbwcWVe_KRQrj4RR1iRgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
