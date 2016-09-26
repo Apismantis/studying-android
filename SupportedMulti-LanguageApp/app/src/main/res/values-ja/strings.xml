@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Supported Multi-Language App</string>
+    <string name="hello_str">こんにちは！私の名前はトゥアンです</string>
+    <string name="change_language">言語を変えてください</string>
+    <string name="open_act">てくだ</string>
+    <string-array name="languages">
+        <item>JA - EN</item>
+        <item>JA - VI</item>
+        <item>JA - JA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Supported Multi-Language App</string>
+    <string name="hello_str">Hello! My name is Tuan</string>
+    <string name="open_act">Open activity</string>
+    <string name="change_language">Change Languages</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Vietnamese</item>
+        <item>Japanese</item>
+    </string-array>
+</resources>

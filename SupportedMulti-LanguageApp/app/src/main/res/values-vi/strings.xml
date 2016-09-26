@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Supported Multi-Language App</string>
+    <string name="hello_str">Xin chào! Mình tên là Tuấn</string>
+    <string name="open_act">Chuyển màn hình</string>
+    <string name="change_language">Đổi ngôn ngữ</string>
+    <string-array name="languages" >
+        <item>Tiếng Anh</item>
+        <item>Tiếng Việt</item>
+        <item>Tiếng Nhật</item>
+    </string-array>
+</resources>
