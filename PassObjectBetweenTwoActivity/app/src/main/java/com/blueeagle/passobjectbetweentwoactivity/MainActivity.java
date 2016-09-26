@@ -94,6 +94,18 @@ public class MainActivity extends AppCompatActivity {
         return new User(name, email, birthday, city);
     }
 
+    public User1 getUser1() {
+        String name = etName.getText().toString();
+        String email = etEmail.getText().toString();
+        Date birthday = getBirthday();
+        String city = etCity.getText().toString();
+
+        if (name.equals("") || email.equals("") || birthday == null || city.equals(""))
+            return null;
+
+        return new User1(name, email, birthday, city);
+    }
+
     public void passObject1() {
         User user = getUser();
 
@@ -108,6 +120,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void passObject2() {
+        User1 user = getUser1();
 
+        if (user == null) {
+            Toast.makeText(this, "Bạn chưa điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        Intent intent = new Intent(MainActivity.this, UsingParcelable.class);
+        intent.putExtra("user", user);
+        startActivity(intent);
     }
 }
